@@ -1,0 +1,132 @@
+body {
+    background: rgba(255, 247, 127, 0.3);
+    font-family: 'Roboto', sans-serif;
+    margin: 5%;
+  }
+  
+ .notes {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 2%;
+    margin-bottom: 10%;
+} 
+
+h3 {
+    color:black;
+    text-align: left;
+    margin: 4%;
+    padding-left: 3%;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+ul{
+    color:#296862;
+    text-align: left;
+    margin: 4%;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.list {
+    list-style: square inside;
+  }
+
+  a{
+    background: -webkit-linear-gradient(#e128ff, #ff5151);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.8s ease;
+    font-size: 20pt;
+  }
+  
+  a:visited {
+    color: #EB5F32;
+  }
+  
+  a:hover { 
+    background: -webkit-radial-gradient(#40ff00, #7d81ff, #00ed8a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+  }
+  
+  a:active {
+    color: #9CD6EA;
+  }
+  
+img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.digiarchive{
+    padding-top: 3%;
+  }
+
+blockquote {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10%;
+}
+
+blockquote p {
+    padding: 3%;
+    background:#FFD787;
+    border-radius: 5px;
+}
+
+table{
+  margin: auto;
+  width: 50%;
+  margin-bottom: 10%;
+}
+
+table,
+td {
+    border: 1px solid #00636F;
+    font-size: 1.5vw;
+}
+
+caption {
+   font-family: 'Montserrat', sans-serif;  
+   font-size: 1.8vw;
+   padding-bottom: 2%;
+}
+thead,
+tfoot {
+    background-color: #FFD787;
+    color:#00636F ;
+}
+
+.color1 {
+  background-color: #9CD6EA;
+}
+
+.color2 {
+  background-color: #C9F2C0;
+}
+
+.organize {
+  margin: auto;
+  width: 50%;
+  padding: 3%;
+} 
+
+.duplicate{ 
+  float: left;
+}
+
+.duplicate:hover {
+  transform: scale(1.2, 1.2);
+  filter: grayscale(60);
+  transition: 0.5s ease-in-out;
+}
+.textwrap{
+  width: 50%;
+  font-size: 15pt;
+}
+
